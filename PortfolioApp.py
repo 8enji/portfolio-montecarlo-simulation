@@ -6,7 +6,7 @@ import numpy as np
 from plotly import graph_objs as go
 import plotly.express as px
 from pandas_datareader import data as pdr
-from monteCarloSim import monteCarloSim
+from MonteCarloSim import MonteCarloSim
 from Portfolio import Portfolio
 
 yf.pdr_override()
@@ -95,7 +95,7 @@ st.subheader('Monte Carlo Simulations')
 st.write('Raw Data')
 
 def monte_carlo_sim():
-    mc = monteCarloSim(SIMS, n_years * 265, portfolio)
+    mc = MonteCarloSim(SIMS, n_years * 265, portfolio)
     portfolio_sims = mc.run_sumulations()
     
     fig = go.Figure()
