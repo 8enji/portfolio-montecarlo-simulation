@@ -1,6 +1,6 @@
 import numpy as np
 
-class monteCarloSim:
+class MonteCarloSim:
     def __init__(self, num_sims, time_frame, portfolio):
         self.num_sims = num_sims
         self.time_frame = time_frame
