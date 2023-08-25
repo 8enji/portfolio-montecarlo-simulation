@@ -22,6 +22,9 @@ the monte carlo simulation provides a valuable assessment for long term investor
 <img width="842" alt="Screen Shot 2023-08-23 at 6 07 13 PM" src="https://github.com/8enji/portfolio-montecarlo-simulation/assets/58536087/59ad7b89-6293-4c85-a7d5-2eaf2ffa21b6">
 <img width="832" alt="Screen Shot 2023-08-23 at 6 07 21 PM" src="https://github.com/8enji/portfolio-montecarlo-simulation/assets/58536087/97ed3de6-aa94-4af1-9676-b9f381eb1406">
 
+### known issues
+* rapidly updating the time frame may result in streamlit error
+
 
 
 
